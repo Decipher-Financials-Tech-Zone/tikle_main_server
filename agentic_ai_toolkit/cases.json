@@ -1,0 +1,223 @@
+[
+    {
+        "BDC_name" : "ARES CAPITAL CORP",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false,
+        "stated_coupon_bifurcation_funcion": false,
+        "total_coupon_bifurcation": false
+    },
+    {
+        "BDC_name" : "Horizon Technology Finance Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false,
+        "stated_coupon_bifurcation_funcion": false,
+        "total_coupon_bifurcation": false
+    },
+    {
+        "BDC_name" : "Hercules Capital, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false,
+        "stated_coupon_bifurcation_funcion": false,
+        "total_coupon_bifurcation": "funct1"
+    },
+    {
+        "BDC_name" : "Hercules Capital, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "New Mountain Finance Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+ {
+        "BDC_name" : "Nuveen Churchill Direct Lending Corp.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "CAPITAL SOUTHWEST CORP",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+     {
+        "BDC_name" : "FS KKR Capital Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Palmer Square Capital BDC INC.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "SLR Investment Corp.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "Apollo Debt Solutions BDC",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "GLADSTONE CAPITAL CORP",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "GLADSTONE INVESTMENT CORPORATION\\DE",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Carlyle Secured Lending, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "TriplePoint Venture Growth BDC Corp.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Trinity Capital Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "Blackrock TCP Capital Corp.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Barings BDC, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Blackstone Private Credit Fund",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "MidCap Financial Investment Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "Main Street Capital CORP",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Morgan Stanley Direct Lending Fund",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Goldman Sachs BDC, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "Runway Growth Finance Corp.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "PROSPECT CAPITAL CORP",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Main Street Capital CORP",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "BCP Investment Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "Barings Capital Investment Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Barings Private Credit Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Blue Owl Credit Income Corp.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Blue Owl Technology Income Corp.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "26North BDC, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "VISTA CREDIT STRATEGIC LENDING CORP.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Blackstone Secured Lending Fund",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Kayne Anderson BDC, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "Bain Capital Specialty Finance, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "Stellus Capital Investment Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "TPG Twin Brook Capital Income Fund",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Carlyle Credit Solutions, Inc.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    },
+    {
+        "BDC_name" : "New Mountain Guardian IV BDC, L.L.C.",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "TCW Direct Lending VIII LLC",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "KKR FS Income Trust",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": false
+    },
+    {
+        "BDC_name" : "Stone Point Credit Corp",
+        "concatenation_prompt": false,
+        "debt_and_equity_division": true
+    }             
+]
