@@ -1052,7 +1052,7 @@ async def process_bdc_json(
 
 #Notifications
 
-from new_docs_notification import function_to_fetch_new_docs, 
+from new_docs_notification import function_to_fetch_new_docs
 
 
 @app.get("/store-notifications")
