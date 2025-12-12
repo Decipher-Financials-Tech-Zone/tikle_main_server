@@ -42,6 +42,7 @@ from urllib.parse import unquote
 import json
 from pathlib import Path
 from fastapi.concurrency import run_in_threadpool
+import logging
 
 # Build path to cases.json inside the package
 json_path = Path("agentic_ai_toolkit") / "cases.json"
@@ -1046,3 +1047,39 @@ async def process_bdc_json(
         print("❌ Internal Error:", str(e))
         raise HTTPException(status_code=500, detail=f"Post Processing error: {str(e)}")
 
+
+# -------------------------------------------------------------------------------------------------------------------------
+
+#Notifications
+
+from new_docs_notification import function_to_fetch_new_docs, 
+
+
+@app.get("/store-notifications")
+async def store_end_of_day_notifications():
+    try:
+        result = await function_to_fetch_new_docs("endofday")
+        return result
+    except Exception as e:
+        logging.error(f"Failed to fetch new documents: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to fetch new documents: {e}")
+
+
+@app.get("/store-notifications-today")
+async def store_today_notifications():
+    try:
+        result = await function_to_fetch_new_docs("today")
+        return result
+    except Exception as e:
+        logging.error(f"Failed to fetch today's documents: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to fetch today's documents: {e}")
+    
+
+@app.get("/reset-notifications")
+async def reset_notifications():
+    try:
+        result = await function_to_fetch_new_docs("reset")
+        return result
+    except Exception as e:
+        logging.error(f"Failed to fetch new documents: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to fetch new documents: {e}")
