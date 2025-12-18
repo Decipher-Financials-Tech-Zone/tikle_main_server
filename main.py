@@ -542,7 +542,7 @@ async def get_mets_Data(cik: str = Query(...)):
 
 @app.get("/")
 def homePage():
-    return "TIKLE main backend Home page"
+    return "TIKLE main backend Home page, Live"
 
 
 # Login endpoint
