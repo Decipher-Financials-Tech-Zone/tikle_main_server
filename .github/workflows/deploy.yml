@@ -1,0 +1,49 @@
+name: Deploy FastAPI Backend to EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-backend:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Deploy on EC2 via SSH
+      - name: Deploy Backend on EC2
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          script: |
+            set -e
+
+            echo "📁 Go to backend directory"
+            cd ${{ secrets.BACKEND_PATH }}
+
+            echo "🔄 Pull latest code"
+            git fetch origin main
+            git reset --hard origin/main
+
+            echo "🐍 Activate virtual environment"
+            source venv/bin/activate
+
+            echo "📦 Install/update Python dependencies"
+            pip install --upgrade pip
+            pip install -r requirements.txt
+
+            echo "🧹 Clear Python cache (safe)"
+            find . -type d -name "__pycache__" -exec rm -rf {} +
+
+            echo "♻️ Restart FastAPI service"
+            sudo systemctl daemon-reexec
+            sudo systemctl restart fastapi
+
+            echo "✅ Backend deployment completed successfully"

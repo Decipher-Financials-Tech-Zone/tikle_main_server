@@ -1083,3 +1083,5 @@ async def reset_notifications():
     except Exception as e:
         logging.error(f"Failed to fetch new documents: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to fetch new documents: {e}")
+
+
