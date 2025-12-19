@@ -583,7 +583,7 @@ async def validate_user(current_user: dict = Depends(get_current_user)):
 async def get_documents():
     """Fetch all documents from the collection."""
     # documents = await collection.find().to_list(length=100)  # Limit to 100 docs
-    documents = await collection.find().to_list()
+    documents = list(collection.find())
     # Convert ObjectId to string for proper JSON serialization
     for doc in documents:
         doc["_id"] = str(doc["_id"])
