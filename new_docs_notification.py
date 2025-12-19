@@ -166,31 +166,3 @@ async def function_to_fetch_new_docs(when: str):
         raise HTTPException(status_code=500, detail=f"An error occurred: {e}")
 
 
-@app.get("/store-notifications")
-async def store_end_of_day_notifications():
-    try:
-        result = await function_to_fetch_new_docs("endofday")
-        return result
-    except Exception as e:
-        logging.error(f"Failed to fetch new documents: {e}")
-        raise HTTPException(status_code=500, detail=f"Failed to fetch new documents: {e}")
-
-
-@app.get("/store-notifications-today")
-async def store_today_notifications():
-    try:
-        result = await function_to_fetch_new_docs("today")
-        return result
-    except Exception as e:
-        logging.error(f"Failed to fetch today's documents: {e}")
-        raise HTTPException(status_code=500, detail=f"Failed to fetch today's documents: {e}")
-    
-
-@app.get("/reset-notifications")
-async def reset_notifications():
-    try:
-        result = await function_to_fetch_new_docs("reset")
-        return result
-    except Exception as e:
-        logging.error(f"Failed to fetch new documents: {e}")
-        raise HTTPException(status_code=500, detail=f"Failed to fetch new documents: {e}")
