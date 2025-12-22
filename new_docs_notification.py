@@ -47,7 +47,8 @@ def function_to_adjust_meta_Data(data, when: str):
     else:
         filter_date = datetime.today().date()
 
-    filter_date_str = filter_date.strftime('%Y-%m-%d')
+    # filter_date_str = filter_date.strftime('%Y-%m-%d')
+    filter_date_str = "2025-12-19"
 
     # Uncomment this to enter the date of the notifications we want to fetch.
     # filter_date_str = "2025-04-04"
